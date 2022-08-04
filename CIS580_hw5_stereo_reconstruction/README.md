@@ -8,3 +8,9 @@ Run `plane_sweep.ipynb` jupyter notebook to see the results of the multi-view st
 
 ## Requirements
 Kindly go through the `requirements.txt` file to know the list of necessary libraries.
+
+Lines that can be used to explicitly enable the k3d extensions:
+```
+$ jupyter nbextension install --py --user k3d
+$ jupyter nbextension enable --py --user k3d
+```

@@ -1,7 +1,6 @@
 ===============================
 MEAM 620 Project 3
 Name: Pranav Shah
-email: pranavps@seas.upenn.edu
 ===============================
 
 graph_search.py

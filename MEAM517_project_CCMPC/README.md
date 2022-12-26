@@ -27,8 +27,13 @@ There are four instances of hardcoded path, change them to reflect your path!
 build instructions:
 1. Navigate to root of the worksopace
 2. Run 
-
+     `$ colcon build --packages-up-to meam517_interfaces`
+3. Run 
+     `$ source install/setup.bash`
+4. Run 
      `$ colcon build`
+5. Run 
+     `$ source install/setup.bash`
 
 
 To launch simulator with multiple turtlebots, Run:

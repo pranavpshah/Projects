@@ -1,0 +1,657 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <rdf:Description rdf:about="http://arxiv.org/abs/2205.08480">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hartmann</foaf:surname>
+                        <foaf:givenName>Valentin N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Strub</foaf:surname>
+                        <foaf:givenName>Marlin P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Toussaint</foaf:surname>
+                        <foaf:givenName>Marc</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gammell</foaf:surname>
+                        <foaf:givenName>Jonathan D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_175"/>
+        <link:link rdf:resource="#item_174"/>
+        <link:link rdf:resource="#item_173"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Robotics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Effort Informed Roadmaps (EIRM*): Efficient Asymptotically Optimal Multiquery Planning by Actively Reusing Validation Effort</dc:title>
+        <dcterms:abstract>Multiquery planning algorithms find paths between various different starts and goals in a single search space. They are designed to do so efficiently by reusing information across planning queries. This information may be computed before or during the search and often includes knowledge of valid paths. Using known valid paths to solve an individual planning query takes less computational effort than finding a completely new solution. This allows multiquery algorithms, such as PRM*, to outperform single-query algorithms, such as RRT*, on many problems but their relative performance depends on how much information is reused. Despite this, few multiquery planners explicitly seek to maximize path reuse and, as a result, many do not consistently outperform single-query alternatives. This paper presents Effort Informed Roadmaps (EIRM*), an almost-surely asymptotically optimal multiquery planning algorithm that explicitly prioritizes reusing computational effort. EIRM* uses an asymmetric bidirectional search to identify existing paths that may help solve an individual planning query and then uses this information to order its search and reduce computational effort. This allows it to find initial solutions up to an order-of-magnitude faster than state-of-the-art planning algorithms on the tested abstract and robotic multiquery planning problems.</dcterms:abstract>
+        <dc:date>2022-08-02</dc:date>
+        <z:shortTitle>Effort Informed Roadmaps (EIRM*)</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2205.08480</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-10-04 00:01:28</dcterms:dateSubmitted>
+        <dc:description>arXiv:2205.08480 [cs]</dc:description>
+        <prism:number>arXiv:2205.08480</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_175">
+        <rdf:value>Comment: To appear at the International Symposium on Robotics Research (ISRR), Manuscript #3. 16 pages, 7 figures, 1 table. Video and code available at https://robotic-esp.com/code/eirmstar/</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_174">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/174/Hartmann et al. - 2022 - Effort Informed Roadmaps (EIRM) Efficient Asympt.pdf"/>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2205.08480.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-10-04 00:01:30</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_173">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/173/2205.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2205.08480</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-10-04 00:01:35</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_146">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>2017 IEEE International Conference on Robotics and Automation (ICRA)</dc:title>
+                <dc:identifier>DOI 10.1109/ICRA.2017.7989081</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mendes Filho</foaf:surname>
+                        <foaf:givenName>José M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lucet</foaf:surname>
+                        <foaf:givenName>Eric</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Filliat</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_178"/>
+        <link:link rdf:resource="#item_179"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Optimization</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Vehicle dynamics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Collision avoidance</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Dynamics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Planning</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Robots</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Trajectory</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Real-time distributed receding horizon motion planning and control for mobile multi-robot dynamic systems</dc:title>
+        <dcterms:abstract>This paper proposes an improvement of a motion planning approach and a modified model predictive control (MPC) for solving the navigation problem of a team of dynamical wheeled mobile robots in the presence of obstacles in a realistic environment. Planning is performed by a distributed receding horizon algorithm where constrained optimization problems are numerically solved for each prediction time-horizon. This approach allows distributed motion planning for a multi-robot system with asynchronous communication while avoiding collisions and minimizing the travel time of each robot. However, the robots dynamics prevents the planned motion to be applied directly to the robots. Using unicycle-like vehicles in a dynamic simulation, we show that deviations from the planned motion caused by the robots dynamics can be overcome by modifying the optimization problem underlying the planning algorithm and by adding an MPC for trajectory tracking. Results also indicate that this approach can be used in systems subjected to real-time constraint.</dcterms:abstract>
+        <dc:date>2017-05</dc:date>
+        <z:libraryCatalog>IEEE Xplore</z:libraryCatalog>
+        <bib:pages>657-663</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2017 IEEE International Conference on Robotics and Automation (ICRA)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_178">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/178/7989081.html"/>
+        <dc:title>IEEE Xplore Abstract Record</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/7989081/?arnumber=7989081</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 21:17:42</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_179">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/179/Mendes Filho et al. - 2017 - Real-time distributed receding horizon motion plan.pdf"/>
+        <dc:title>IEEE Xplore Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&amp;arnumber=7989081&amp;ref=aHR0cHM6Ly9pZWVleHBsb3JlLmllZWUub3JnL3N0YW1wL3N0YW1wLmpzcD90cD0mYXJudW1iZXI9Nzk4OTA4MQ==</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 21:17:33</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2204.11783">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Verginis</foaf:surname>
+                        <foaf:givenName>Christos K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kantaros</foaf:surname>
+                        <foaf:givenName>Yiannis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dimarogonas</foaf:surname>
+                        <foaf:givenName>Dimos V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_182"/>
+        <link:link rdf:resource="#item_181"/>
+        <link:link rdf:resource="#item_180"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Robotics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Systems and Control</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Planning and Control of Multi-Robot-Object Systems under Temporal Logic Tasks and Uncertain Dynamics</dc:title>
+        <dcterms:abstract>We develop an algorithm for the motion and task planning of a system comprised of multiple robots and unactuated objects under tasks expressed as Linear Temporal Logic (LTL) constraints. The robots and objects evolve subject to uncertain dynamics in an obstacle-cluttered environment. The key part of the proposed solution is the intelligent construction of a coupled transition system that encodes the motion and tasks of the robots and the objects. We achieve such a construction by designing appropriate adaptive control protocols in the lower level, which guarantee the safe robot navigation/object transportation in the environment while compensating for the dynamic uncertainties. The transition system is efficiently interfaced with the temporal logic specification via a sampling-based algorithm to output a discrete path as a sequence of synchronized actions of the robots; such actions satisfy the robots' as well as the objects' specifications. The robots execute this discrete path by using the derived low level control protocol. Simulation results verify the proposed framework.</dcterms:abstract>
+        <dc:date>2022-04-25</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2204.11783</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 21:14:14</dcterms:dateSubmitted>
+        <dc:description>arXiv:2204.11783 [cs, eess]</dc:description>
+        <prism:number>arXiv:2204.11783</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_182">
+        <rdf:value>Comment: arXiv admin note: text overlap with arXiv:1803.01579</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_181">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/181/Verginis et al. - 2022 - Planning and Control of Multi-Robot-Object Systems.pdf"/>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2204.11783.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 21:14:21</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_180">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/180/2204.html"/>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/2204.11783</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 21:14:28</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1007/s10514-022-10048-7">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1573-7527"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manjanna</foaf:surname>
+                        <foaf:givenName>Sandeep</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hsieh</foaf:surname>
+                        <foaf:givenName>M. Ani</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dudek</foaf:surname>
+                        <foaf:givenName>Greogory</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_184"/>
+        <link:link rdf:resource="#item_185"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Adaptive sampling</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Environment monitoring</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Marine robots</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Multi-Robot systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Scalable multirobot planning for informed spatial sampling</dc:title>
+        <dcterms:abstract>This paper presents a distributed scalable multi-robot planning algorithm for informed sampling of quasistatic spatials fields. We address the problem of efficient data collection using multiple autonomous vehicles and consider the effects of communication between multiple robots, acting independently, on the overall sampling performance of the team. We focus on the distributed sampling problem where the robots operate independent of their teammates, but have the ability to communicate their current state to other neighbors within a fixed communication range. Our proposed approach is scalable and adaptive to various environmental scenarios, changing robot team configurations, and runs in real-time, which are important features for many real-world applications. We compare the performance of our proposed algorithm to baseline strategies through simulated experiments that utilize models derived from both synthetic and field deployment data. The results show that our sampling algorithm is efficient even when robots in the team are operating with a limited communication range, thus demonstrating the scalability of our method in sampling large-scale environments.</dcterms:abstract>
+        <dc:date>2022-10-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/s10514-022-10048-7</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 21:08:28</dcterms:dateSubmitted>
+        <bib:pages>817-829</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1573-7527">
+        <prism:volume>46</prism:volume>
+        <dc:title>Autonomous Robots</dc:title>
+        <dc:identifier>DOI 10.1007/s10514-022-10048-7</dc:identifier>
+        <prism:number>7</prism:number>
+        <dcterms:alternative>Auton Robot</dcterms:alternative>
+        <dc:identifier>ISSN 1573-7527</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_184">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;Good starting paper&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_185">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/185/Manjanna et al. - 2022 - Scalable multirobot planning for informed spatial .pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2Fs10514-022-10048-7.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 21:08:32</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.frontiersin.org/articles/10.3389/frobt.2020.00036">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2296-9144"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schranz</foaf:surname>
+                        <foaf:givenName>Melanie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Umlauft</foaf:surname>
+                        <foaf:givenName>Martina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sende</foaf:surname>
+                        <foaf:givenName>Micha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Elmenreich</foaf:surname>
+                        <foaf:givenName>Wilfried</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_186"/>
+        <dc:title>Swarm Robotic Behaviors and Current Applications</dc:title>
+        <dcterms:abstract>In swarm robotics multiple robots collectively solve problems by forming advantageous structures and behaviors similar to the ones observed in natural systems, such as swarms of bees, birds, or fish. However, the step to industrial applications has not yet been made successfully. Literature is light on real-world swarm applications that apply actual swarm algorithms. Typically, only parts of swarm algorithms are used which we refer to as basic swarm behaviors. In this paper we collect and categorize these behaviors into spatial organization, navigation, decision making, and miscellaneous. This taxonomy is then applied to categorize a number of existing swarm robotic applications from research and industrial domains. Along with the classification, we give a comprehensive overview of research platforms that can be used for testing and evaluating swarm behavior, systems that are already on the market, and projects that target a specific market. Results from this survey show that swarm robotic applications are still rare today. Many industrial projects still rely on centralized control, and even though a solution with multiple robots is employed, the principal idea of swarm robotics of distributed decision making is neglected. We identified mainly following reasons: First of all, swarm behavior emerging from local interactions is hard to predict and a proof of its eligibility for applications in an industrial context is difficult to provide. Second, current communication architectures often do not match requirements for swarm communication, which often leads to a system with a centralized communication infrastructure. Finally, testing swarms for real industrial applications is an issue, since deployment in a productive environment is typically too risky and simulations of a target system may not be sufficiently accurate. In contrast, the research platforms present a means for transforming swarm robotics solutions from theory to prototype industrial systems.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <z:libraryCatalog>Frontiers</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.frontiersin.org/articles/10.3389/frobt.2020.00036</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 20:59:33</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2296-9144">
+        <prism:volume>7</prism:volume>
+        <dc:title>Frontiers in Robotics and AI</dc:title>
+        <dc:identifier>ISSN 2296-9144</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_186">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/186/Schranz et al. - 2020 - Swarm Robotic Behaviors and Current Applications.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.frontiersin.org/articles/10.3389/frobt.2020.00036/pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 20:59:40</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_150">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>2021 40th Chinese Control Conference (CCC)</dc:title>
+                <dc:identifier>DOI 10.23919/CCC52363.2021.9549796</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mei</foaf:surname>
+                        <foaf:givenName>Yulin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Sheng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Chen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Han</foaf:surname>
+                        <foaf:givenName>Andong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_187"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Planning</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Costs</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Multi-robot</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Path planning</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Process control</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Resource management</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Search problems</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Simulation</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Task allocation</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>A Multi-robot Task Allocation and Path Planning Method for Warehouse System</dc:title>
+        <dcterms:abstract>To improve the efficiency of the traditional warehouse system, a multi-robot task allocation and path planning method for the warehouse system are designed according to the function of it. In the multi-robot task allocation, considering the impact of congestion on the task execution cost, the market auction algorithm which is improved makes the probability compensation of the task execution cost, and the overall path length of the multi-robot system to complete the task is optimized. Conflict search algorithm based on D*Lite plan paths for the multi-robot system, D*Lite algorithm as the lower algorithm provides the basic paths, and the upper algorithm introduces the constraint tree to constrain the collision problems of basic paths between robots, so as to obtain the shortest total running time and safe paths. The simulation results show that the designed multi-robot task allocation and path planning method can effectively improve the operating efficiency of multi-robot in the warehouse system.</dcterms:abstract>
+        <dc:date>2021-07</dc:date>
+        <z:libraryCatalog>IEEE Xplore</z:libraryCatalog>
+        <dc:description>ISSN: 1934-1768</dc:description>
+        <bib:pages>1911-1916</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+               <dc:title>2021 40th Chinese Control Conference (CCC)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_187">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/187/9549796.html"/>
+        <dc:title>IEEE Xplore Abstract Record</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://ieeexplore.ieee.org/document/9549796</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 20:59:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Thesis rdf:about="https://www.proquest.com/docview/2635220295/abstract/1A1FA94495CA43D9PQ/1">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                        <vcard:locality>United States -- New Jersey</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Rutgers The State University of New Jersey, School of Graduate Studies</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Edmonds</foaf:surname>
+                        <foaf:givenName>Merrill</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_188"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Multi-robot systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>3D hyperspectral reconstruction</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Agricultural robotics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Machine learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Planning algorithms</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Robotics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>An Autonomous System for Crop Inspections: 3D Hyperspectral Reconstructions, Multi-Robot Planning and Control</dc:title>
+        <dcterms:abstract>Crop inspections are a critical part of modern agriculture. On a fundamental level, timely inspections allow farmers to identify problems with the crop and take preventative measures where necessary. More generally, inspections provide a wealth of information for downstream precision agriculture applications, which typically optimize yields using large-scale crop monitoring data captured via satellites or drones. However, the top-down images generated by satellites and drones are ill-suited for leaf-level analyses, so farmers still perform manual inspections at certain points in the growth cycle to ensure yield targets are met. Agricultural robots bridge this gap by allowing farmers to automate close-up inspections, thus capturing the benefits of both manual inspections and automated toolchains. On the other hand, aggregating the multi-modal data generated by these robots requires expert knowledge and several proprietary software packages, and the inspection routes for large robot groups are still planned by human operators. There are many similar technical challenges that prevent robotic inspections from being included in the agricultural value chain, and new systems and algorithms must be developed to overcome these challenges.
+The goal of this dissertation is to develop a new autonomous system and algorithms for crop inspections. In addition to developing a hardware and software architecture needed for high-throughput inspections, the dissertation also addresses the following technological gaps: (i) three-dimensional (3D) hyperspectral reconstruction methods necessary for efficient and low-cost inspections using robot-mounted sensors and cameras, (ii) site-specific multi-robot allocation and planning algorithms to enable high-throughput inspections, (iii) control algorithms that allow unmanned aerial vehicles (UAVs) to land on unmanned ground vehicles (UGVs) for continuous inspection missions, and (iv) the human-robot interaction (HRI) methods to provide farmers with greater control over the inspection process. When combined, the proposed methods allow the robots to autonomously select which plants to inspect as distributed UGV-UAV teams, while also giving farmers intuitive tools to preempt the inspection process. The contributions of the thesis are therefore all aimed towards creating a single, cohesive autonomous crop inspection framework.
+One of the central contributions of this thesis is a novel 3D hyperspectral reconstruction method that captures the spatial and spectral properties of the plant. Unlike similar methods that use bulky, expensive, and slow hyperspectral cameras and laser scanners to capture data, the proposed method leverages the spectral and intrinsic properties of a heterogeneous set of commodity cameras to convert standard RGB images into full-spectrum data embedded onto a 3D point cloud. Since practical considerations require the robot to collect a limited number of source images per plant, a spectrally-optimal next-best-view (SONBV) problem is formulated and a method is proposed to produce the most complete 3D hyperspectral reconstruction from the source images. Novel algorithms to determine these angles from incomplete knowledge are demonstrated, and the applicability to crop inspections is further investigated by fabricating and testing a tabletop 3D hyperspectral scanner.
+The proposed reconstruction method naturally leads to the multi-robot task allocation problem of selecting a representative set of scan targets, and distributing the associated scanning tasks among the team of UGVs. An equivalent optimization problem is proposed to select sampling points across a continuous metric field mapped onto the crop field such that the cumulative posterior covariance of a Gaussian process representation of the metric field is maximized. Augmented robot-centered geodesic Voronoi graphs of the plot are then constructed to find minimum-cost hyperedges on a multi-partite graph induced by these Voronoi regions. The planning problem is proven to be NP-hard, and an approximate set of assignments are determined greedily as the minimal-cost finite-horizon combinations of scan targets. The proposed algorithm is also extended to continuous data collection by UGV/UAV groups. Simulation studies show that the proposed methods outperform state-of-the-art methods in prediction quality and average resolution, while also observing the energy constraints.
+Another particularly challenging control problem for the proposed UGV/UAV inspection system is the execution of coordinated UGV/UAV landing maneuvers (e.g., when the UAV needs to land on the UGV to recharge). The UGV/UAV pair is taken in isolation, and the interactions between the UGV and the UAV are modeled as a paired model identification and trajectory optimization problem. The near-surface aerodynamic effects caused by the interaction of the multi-rotor downwash and the platform's geometry are modeled using a novel neural network architecture. Linearized disturbance models are then used to iteratively plan landing trajectories based on the on-board model predictive controller. Cooperative landing trajectories are then calculated to satisfy the multi-robot coverage problem, UAV and UGV dynamics, and any local constraints. The proposed methods are validated experimentally and by simulation.
+Finally, we ensure that the farmer is able to take control of the inspection process by introducing a human-robot interaction framework. This gives the human agency in an otherwise autonomous process, and allows them to preempt the selection of inspection targets via pointing gestures (e.g., to tell the robot to scan a certain plant). To achieve this, a human pose and gesture estimation module is proposed. Previous results from human-following robots are used to provide the multi-robot system with safe and robust human-aware path planning and obstacle avoidance behaviors. Pointing gestures are then used as inspection suggestions. These methods constitute one of the first human-robot interaction models for autonomous crop inspections. Experimental results are provided to show the effectiveness and intuitiveness of the approach.</dcterms:abstract>
+        <dc:date>2022</dc:date>
+        <z:language>English</z:language>
+        <z:shortTitle>An Autonomous System for Crop Inspections</z:shortTitle>
+        <z:libraryCatalog>ProQuest</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.proquest.com/docview/2635220295/abstract/1A1FA94495CA43D9PQ/1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 20:55:57</dcterms:dateSubmitted>
+        <dc:rights>Database copyright ProQuest LLC; ProQuest does not claim copyright in the individual underlying works.</dc:rights>
+        <dc:description>ISBN: 9798790633621</dc:description>
+        <z:numPages>180</z:numPages>
+        <z:type>Ph.D.</z:type>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_188">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/188/Edmonds - 2022 - An Autonomous System for Crop Inspections 3D Hype.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://media.proquest.com/media/hms/PFT/2/PHJ9M?cit%3Aauth=Edmonds%2C+Merrill&amp;cit%3Atitle=An+Autonomous+System+for+Crop+Inspections%3A+3D+Hyperspectral+...&amp;cit%3Apub=ProQuest+Dissertations+and+Theses&amp;cit%3Avol=&amp;cit%3Aiss=&amp;cit%3Apg=&amp;cit%3Adate=2022&amp;ic=true&amp;cit%3Aprod=ProQuest+Dissertations+%26+Theses+Global&amp;_a=ChgyMDIyMDkyOTIwNTMxNjIwMDo3MDc0MjISBTk1NTQ5GgpPTkVfU0VBUkNIIg0xNzMuMTY3LjIxOS45KgUxODc1MDIKMjYzNTIyMDI5NToNRG9jdW1lbnRJbWFnZUIBMFIGT25saW5lWgJGVGIDUEZUagoyMDIyLzAxLzAxcgoyMDIyLzEyLzMxegCCASlQLTEwMDg3NTItMTQ3MDctQ1VTVE9NRVItMTAwMDAyMDUtNDMxMzE3NpIBBk9ubGluZcoBb01vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMDUuMC4wLjAgU2FmYXJpLzUzNy4zNtIBFkRpc3NlcnRhdGlvbnMgJiBUaGVzZXOaAgdQcmVQYWlkqgIrT1M6RU1TLU1lZGlhTGlua3NTZXJ2aWNlLWdldE1lZGlhVXJsRm9ySXRlbcoCE0Rpc3NlcnRhdGlvbi9UaGVzaXPSAgFZ8gIA%2BgIBToIDA1dlYooDHENJRDoyMDIyMDkyOTIwNTMxNjIwMDozMTg0OTc%3D&amp;_s=786tywkUYnQYPMEKdAL0dRu1J%2F0%3D</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 20:56:03</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://asmedigitalcollection.asme.org/mechanicaldesign/article/doi/10.1115/1.4055735/1146431/Decentralized-and-Centralized-Planning-for-Multi">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1050-0472,%201528-9001"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Poudel</foaf:surname>
+                        <foaf:givenName>Laxmi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Elagandula</foaf:surname>
+                        <foaf:givenName>Saivipulteja</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhou</foaf:surname>
+                        <foaf:givenName>Wenchao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sha</foaf:surname>
+                        <foaf:givenName>Zhenghui</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_189"/>
+        <dc:title>Decentralized and Centralized Planning for Multi-Robot Additive Manufacturing</dc:title>
+        <dcterms:abstract>Abstract
+            In this paper, we present a decentralized approach to scheduling multi-robot cooperative additive manufacturing. The results of the decentralized approach are compared with those obtained from an optimization-based method, representing the class of centralized approaches for manufacturing scheduling. Two case studies are conducted to evaluate both approaches in total makespan. In the first case, four rectangular bars of different dimensions from small to large are printed. Each bar is first divided into small subtasks (called chunks), and four robots are then assigned to print the resulting chunks. The second case study focuses on testing geometric complexity, where four robots are used to print a mask stencil (an inverse stencil, not face covering). The result shows that the centralized approach provides a better solution compared to the decentralized approach for small-scale problems. However, the gap between the solutions shrinks while the scale increases. Additionally, the runtime for the centralized approach increased by 39-fold for the extra-large problem compared to the small-scale problem. In contrast, the runtime for the decentralized approach was not affected by the scale of the problem. Finally, a Monte Carlo analysis was performed to evaluate the robustness of the centralized approach against AM uncertainties. The result shows that the variations in the printing time of different robots can lead to a significant discrepancy between the generated optimal plan and the actual implementation, thereby causing collisions between robots that should have not happened if there were no uncertainties.</dcterms:abstract>
+        <dc:date>2022-09-22</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://asmedigitalcollection.asme.org/mechanicaldesign/article/doi/10.1115/1.4055735/1146431/Decentralized-and-Centralized-Planning-for-Multi</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 20:31:30</dcterms:dateSubmitted>
+        <bib:pages>1-30</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1050-0472,%201528-9001">
+        <dc:title>Journal of Mechanical Design</dc:title>
+        <dc:identifier>DOI 10.1115/1.4055735</dc:identifier>
+        <dc:identifier>ISSN 1050-0472, 1528-9001</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_189">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/189/Poudel et al. - 2022 - Decentralized and Centralized Planning for Multi-R.pdf"/>
+        <dc:title>Poudel et al. - 2022 - Decentralized and Centralized Planning for Multi-R.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://watermark.silverchair.com/md-22-1199.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAABBMwggQPBgkqhkiG9w0BBwagggQAMIID_AIBADCCA_UGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMO9sKjSCH_D9U2GhUAgEQgIIDxp0fb6KW4BlnW8Jn3aFTwGToLq4ps2h9dSGpR1TOW4-zlsDT5VjV-shA2YUm2R3_idBwCWAgwZ2CvBpPZJlevZNTs53hCkhuGut7QrWTNtRXknPb_c981DQ18PcYah2zKoL-FPkdxc8R50D0lofDRxrD_BmW7QXxUFlPYfX65Eidvhylan4A_wO2R5nRGmCzy5RcIOkOelgPF3EqxxbMw4A3dXSGib8w75bbO69LNC0ZKDF8cHYMmtDgFtvE5xhB4MTeIxsI81cJa5mSZiyt3J5LHj60fGjJi0miA581dj75KAqKUQYTw-6kouGAoWID8SqzA7GJHOpeRnQnuVkzmKvntM9P0CNAvd2k9JbRRO07cnEr3tltO_z1YdvhzPMWCPhqO_cYgSwmUvb8L3g-qVyJpsmU0D8Ofu1Vcdc-U12e8OCvJC2W0Po1VkE9kX-9pDpXLqDj_8f5pjxkl-DEZskkLSTUOBa-MbUgOc527Wj1eN-jG6GVf-RQsuZq-_OnaBfbirk9wHgaPmvt-6v7U3HWtipIjmPFf4Gm3VczH5S6rs3SLz9Gx4nZS8Q4iFcWUUiNv4Wz7WVBlD1CmiUcGmTixADnIHmy-G_vUUVA7uU0HoKp-ixqrpzIdkYQAwldpIl23pLJrAfmQJrzpynzHKQ4527_7SNvoXE7BK0lrdTWfvFX73ELJnz4PaygJmTWzWfERH8sVJDO9uXrFpQODNACxVd0uZnhQbbKP6lK_dj6sJNTFYzt-eFXAPdFid2wquAV5SdZIU_bQ7EfZhs-pgqkgzN5IsfTjZ-XQdsCBZ_AQT-ngNuoHeA_qiGc6S-hgT6bQ98qUB4B4kWf4QwgerCVxG0k6lIfx-nKzg93sgdeGbPVsnJJRS1WxG3IRe062lc37iZjKFbBop38QDL9zRNEdpA1tVlWrL_-bEy9shIp0PJLeC6L_2Ay14veKeRT02_d3O63hmvf1hK0yQPUv6hK8CeRS6kVmq3PeK_LEGo6ISI7y1aezkAsMALKV9q6GOiApO4icgeabHBKeygOOaR9a4L5cuygodVV0yk7S_ClCWm9P74hwnXpsdtidPmoEcRuQR3ThAtcH7_3Ds7MVC00JYMmV2A6n5Eb10aVWIr6IeCCuk-r6YkuKADtIdOxxq0bsb6wDbRTu4H2_pLfCZashI3L_SE_7OxBrkoO2NCwZjLKZh60JrNQyEtzmhFiGMpIUAuJnTRsopmqoSS4m3qEgKP2jbfRVDaRcMXqwL4CyDth6VMgIkL-d3TokUQphIh1-WWZ9g</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-29 20:31:25</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>

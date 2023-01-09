@@ -5,6 +5,8 @@ CIS 520 Final project :- Comaprison of performance of classifiers on time series
 
 CIS 580 HW5 :- Two-view and Multi-view Stereo reconstruction.
 
+ESE 546 Final project :- Attention based network to perform Human Trajectory Prediction
+
 ESE 650 HW3 :- LIDAR based SLAM using a Particle filter.
 
 ESE 650 Project :- Comparison of performance of difference types of Kalman filters with an Ensemble filter.

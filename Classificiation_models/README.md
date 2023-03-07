@@ -12,3 +12,5 @@ xgboost, scipy, sklearn, numpy, pandas, hyperopt, matplotlib
 https://archive.ics.uci.edu/ml/datasets/WISDM+Smartphone+and+Smartwatch+Activity+and+Biometrics+Dataset+
 ```
 
+### Files to run:
+All the models have been implemented in python notebooks which also include hyperparameter tuning snippets. 

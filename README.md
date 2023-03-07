@@ -1,14 +1,23 @@
 # Projects
 ## Brief about the projects:
 
-CIS 520 Final project :- Comaprison of performance of classifiers on time series data like WISDM Health Dataset.
+### Classification models
+CIS 520 Introduction to Machine Learning :- Comaprison of performance of classifiers on time series data like WISDM Health Dataset.
 
-CIS 580 HW5 :- Two-view and Multi-view Stereo reconstruction.
+### Stereo Reconstruction
+CIS 580 Machine Perception :- Two-view and Multi-view Stereo reconstruction.
 
-ESE 546 Final project :- Attention based network to perform Human Trajectory Prediction
+### Transformer model
+ESE 546 Deep Learning :- Attention based network to perform Human Trajectory Prediction
 
-ESE 650 HW3 :- LIDAR based SLAM using a Particle filter.
+### SLAM
+ESE 650 Learning in Robotics :- LIDAR based SLAM using a Particle filter.
 
-ESE 650 Project :- Comparison of performance of difference types of Kalman filters with an Ensemble filter.
+### Ensemble Kalman Filter
+ESE 650 Learning in Robotics :- Comparison of performance of difference types of Kalman filters with an Ensemble filter.
 
-MEAM 620 Project :- A Visual-Inertial Odomentry (VIO) based autonomous quadcoptor simulation.
+### Model Predictive Control
+MEAM 517 Control and Optimization for Application in Robotics :- Chance Constrained Multi-agent Non-linear Model Predictive Control.
+
+### VIO for UAV
+MEAM 620 Advanced Robotics :- A Visual-Inertial Odomentry (VIO) based autonomous quadcoptor simulation.

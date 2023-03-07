@@ -10,7 +10,7 @@ State estimation is done by combining IMU data with image data
 using a Complementary filter.
 
 ## How to run
-Got to file `./proj3/code/sandbox.py`
+Go to file `./proj3/code/sandbox.py`
 
 Run `sandbox.py` to the simulation animation and plots. 
 

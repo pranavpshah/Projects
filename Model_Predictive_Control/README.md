@@ -8,6 +8,7 @@ Unzip the turtlebot3_simulation zip file and add it to the gitignore list.
 
 
 So, to run the Gazebo Simulator, one path will need to be manually added.
+
 After pulling the Repo, open the file: MEAM-517-Project/src/robot_spawner_pkg/src/robot_spawner_pkg/spawn_turtlebot.py
 
 Change the below line :
